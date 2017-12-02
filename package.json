@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/OojAmit/wca-comp-here/issues"
   },
-  "homepage": "https://github.com/OojAmit/wca-comp-here#readme"
+  "homepage": "https://github.com/OojAmit/wca-comp-here#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "handlebars": "^4.0.11",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
 }
