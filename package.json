@@ -1,0 +1,19 @@
+{
+  "name": "wca-comp-here",
+  "version": "1.0.0",
+  "description": "A web-crawler for WCA to notify you whenever there's a new comp in your area.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OojAmit/wca-comp-here.git"
+  },
+  "author": "Ooj Amit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OojAmit/wca-comp-here/issues"
+  },
+  "homepage": "https://github.com/OojAmit/wca-comp-here#readme"
+}
