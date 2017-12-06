@@ -23,9 +23,7 @@ request(url_noida, (err, res, body) => {
 
   fs.readFile('./comps.html', 'utf8', (err, data) => {
 
-    if(data === comp_html){
-      console.log('It\'s the same thing after all. It\'s the same thing after all! It\'s the same thing aaaaAAAaaaaafter all. It is the same damn thing!');
-    }else{
+    if(data != comp_html){
       var comps = comp_array.map(comp => {
         comp = cheerio.load(comp)
         return {
